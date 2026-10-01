@@ -68,12 +68,6 @@ leetcode/
 | See what I solved recently | Open the [commit history](https://github.com/Maksimuson/leetcode/commits) |
 | Search inside the code | Use GitHub's code search (`/`) with a keyword or an algorithm name |
 
-## ➕ Adding a new solution
-
-1. Save the accepted code as `Easy/` or `Medium/` plus `NNNN-problem-name.cpp` (four-digit number, lowercase, words separated by dashes).
-2. Add a row to the table of the matching difficulty above.
-3. Commit and push.
-
 ## 🧭 Conventions
 
 - One accepted solution per problem.
