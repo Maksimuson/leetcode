@@ -46,6 +46,7 @@ leetcode/
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [0013-roman-to-integer.cpp](Easy/0013-roman-to-integer.cpp) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [0014-longest-common-prefix.cpp](Easy/0014-longest-common-prefix.cpp) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [0021-merge-two-sorted-lists.cpp](Easy/0021-merge-two-sorted-lists.cpp) |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [0020-valid-parentheses.cpp](Easy/0020-valid-parentheses.cpp) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [0026-remove-duplicates-from-sorted-array.cpp](Easy/0026-remove-duplicates-from-sorted-array.cpp) |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [0027-remove-element.cpp](Easy/0027-remove-element.cpp) |
 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [0028-find-the-index-of-the-first-occurrence-in-a-string.cpp](Easy/0028-find-the-index-of-the-first-occurrence-in-a-string.cpp) |
