@@ -9,6 +9,9 @@ sorted by difficulty and numbered like on LeetCode.
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-solutions-FFA116?logo=leetcode&logoColor=white)
 ![C++](https://img.shields.io/badge/language-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
+![Solved](https://img.shields.io/badge/solved-17-brightgreen)
+![Easy](https://img.shields.io/badge/Easy-15-00B8A3)
+![Medium](https://img.shields.io/badge/Medium-2-FFB800)
 ![Last commit](https://img.shields.io/github/last-commit/Maksimuson/leetcode?logo=git&logoColor=white)
 ![Repo size](https://img.shields.io/github/repo-size/Maksimuson/leetcode)
 ![Commits](https://img.shields.io/github/commit-activity/t/Maksimuson/leetcode?logo=github)
@@ -24,6 +27,15 @@ sorted by difficulty and numbered like on LeetCode.
 - 🔢 **Numbered.** Files are named `NNNN-problem-name.cpp`, where `NNNN` is the LeetCode problem number, so they sort in order.
 - 🔎 **Easy to browse.** Press `t` on the repo page and type a number or a name to jump straight to the file.
 
+## 📊 Progress
+
+| Difficulty | Solved |
+|---|:---:|
+| 🟢 Easy | 15 |
+| 🟡 Medium | 2 |
+| 🔴 Hard | 0 |
+| **Total** | **17** |
+
 ## 📁 Repository layout
 
 ```
@@ -33,6 +45,7 @@ leetcode/
 │   ├── 0009-palindrome-number.cpp
 │   └── ...
 ├── Medium/
+│   ├── 0022-generate-parentheses.cpp
 │   └── 1488-avoid-flood-in-the-city.cpp
 └── README.md
 ```
@@ -45,6 +58,7 @@ leetcode/
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [0009-palindrome-number.cpp](Easy/0009-palindrome-number.cpp) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [0013-roman-to-integer.cpp](Easy/0013-roman-to-integer.cpp) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [0014-longest-common-prefix.cpp](Easy/0014-longest-common-prefix.cpp) |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [0020-valid-parentheses.cpp](Easy/0020-valid-parentheses.cpp) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [0021-merge-two-sorted-lists.cpp](Easy/0021-merge-two-sorted-lists.cpp) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [0020-valid-parentheses.cpp](Easy/0020-valid-parentheses.cpp) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [0026-remove-duplicates-from-sorted-array.cpp](Easy/0026-remove-duplicates-from-sorted-array.cpp) |
@@ -54,11 +68,15 @@ leetcode/
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [0058-length-of-last-word.cpp](Easy/0058-length-of-last-word.cpp) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [0066-plus-one.cpp](Easy/0066-plus-one.cpp) |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [0067-add-binary.cpp](Easy/0067-add-binary.cpp) |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [0069-sqrt(x).cpp](Easy/0069-sqrt%28x%29.cpp) |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [0070-climbing-stairs.cpp](Easy/0070-climbing-stairs.cpp) |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [0083-remove-duplicates-from-sorted-list.cpp](Easy/0083-remove-duplicates-from-sorted-list.cpp) |
 
 ## 🟡 Medium
 
 | # | Problem | Solution |
 |---|---|---|
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [0022-generate-parentheses.cpp](Medium/0022-generate-parentheses.cpp) |
 | 1488 | [Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [1488-avoid-flood-in-the-city.cpp](Medium/1488-avoid-flood-in-the-city.cpp) |
 
 ## 🔍 Finding a solution
@@ -74,6 +92,7 @@ leetcode/
 - One accepted solution per problem.
 - Solutions are stored as submitted to LeetCode, so they keep LeetCode's `class Solution` signatures.
 - Folders are by difficulty: `Easy`, `Medium`.
+- Adding a solution? Add its row to the table in this README too, and bump the counters.
 
 ## ⚠️ Disclaimer
 
