@@ -9,9 +9,10 @@ sorted by difficulty and numbered like on LeetCode.
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-solutions-FFA116?logo=leetcode&logoColor=white)
 ![C++](https://img.shields.io/badge/language-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
-![Solved](https://img.shields.io/badge/solved-17-brightgreen)
-![Easy](https://img.shields.io/badge/Easy-15-00B8A3)
-![Medium](https://img.shields.io/badge/Medium-2-FFB800)
+![Solved](https://img.shields.io/badge/solved-21-brightgreen)
+![Easy](https://img.shields.io/badge/Easy-17-00B8A3)
+![Medium](https://img.shields.io/badge/Medium-3-FFB800)
+![Hard](https://img.shields.io/badge/Hard-1-F63636)
 ![Last commit](https://img.shields.io/github/last-commit/Maksimuson/leetcode?logo=git&logoColor=white)
 ![Repo size](https://img.shields.io/github/repo-size/Maksimuson/leetcode)
 ![Commits](https://img.shields.io/github/commit-activity/t/Maksimuson/leetcode?logo=github)
@@ -23,7 +24,7 @@ sorted by difficulty and numbered like on LeetCode.
 ## ✨ About
 
 - 🗂️ **Code only.** Every file is one accepted solution, with no extra noise.
-- 🎚️ **Sorted by difficulty.** Solutions live in `Easy` and `Medium` folders.
+- 🎚️ **Sorted by difficulty.** Solutions live in `Easy`, `Medium` and `Hard` folders.
 - 🔢 **Numbered.** Files are named `NNNN-problem-name.cpp`, where `NNNN` is the LeetCode problem number, so they sort in order.
 - 🔎 **Easy to browse.** Press `t` on the repo page and type a number or a name to jump straight to the file.
 
@@ -31,10 +32,17 @@ sorted by difficulty and numbered like on LeetCode.
 
 | Difficulty | Solved |
 |---|:---:|
+<<<<<<< HEAD
 | 🟢 Easy | 16 |
 | 🟡 Medium | 2 |
 | 🔴 Hard | 0 |
 | **Total** | **18** |
+=======
+| 🟢 Easy | 17 |
+| 🟡 Medium | 3 |
+| 🔴 Hard | 1 |
+| **Total** | **21** |
+>>>>>>> a08ea0c (add new tasks)
 
 ## 📁 Repository layout
 
@@ -45,8 +53,11 @@ leetcode/
 │   ├── 0009-palindrome-number.cpp
 │   └── ...
 ├── Medium/
+│   ├── 0002-add-two-numbers.cpp
 │   ├── 0022-generate-parentheses.cpp
 │   └── 1488-avoid-flood-in-the-city.cpp
+├── Hard/
+│   └── 0032-longest-valid-parentheses.cpp
 └── README.md
 ```
 
@@ -70,13 +81,21 @@ leetcode/
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [0069-sqrt(x).cpp](Easy/0069-sqrt%28x%29.cpp) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [0070-climbing-stairs.cpp](Easy/0070-climbing-stairs.cpp) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [0083-remove-duplicates-from-sorted-list.cpp](Easy/0083-remove-duplicates-from-sorted-list.cpp) |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [0088-merege-sorted-array.cpp](Easy/0088-merege-sorted-array.cpp) |
 
 ## 🟡 Medium
 
 | # | Problem | Solution |
 |---|---|---|
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [0002-add-two-numbers.cpp](Medium/0002-add-two-numbers.cpp) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [0022-generate-parentheses.cpp](Medium/0022-generate-parentheses.cpp) |
 | 1488 | [Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [1488-avoid-flood-in-the-city.cpp](Medium/1488-avoid-flood-in-the-city.cpp) |
+
+## 🔴 Hard
+
+| # | Problem | Solution |
+|---|---|---|
+| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [0032-longest-valid-parentheses.cpp](Hard/0032-longest-valid-parentheses.cpp) |
 
 ## 🔍 Finding a solution
 
@@ -90,7 +109,7 @@ leetcode/
 
 - One accepted solution per problem.
 - Solutions are stored as submitted to LeetCode, so they keep LeetCode's `class Solution` signatures.
-- Folders are by difficulty: `Easy`, `Medium`.
+- Folders are by difficulty: `Easy`, `Medium`, `Hard`.
 - Adding a solution? Add its row to the table in this README too, and bump the counters.
 
 ## ⚠️ Disclaimer
