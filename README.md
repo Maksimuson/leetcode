@@ -32,17 +32,10 @@ sorted by difficulty and numbered like on LeetCode.
 
 | Difficulty | Solved |
 |---|:---:|
-<<<<<<< HEAD
-| 🟢 Easy | 16 |
-| 🟡 Medium | 2 |
-| 🔴 Hard | 0 |
-| **Total** | **18** |
-=======
 | 🟢 Easy | 17 |
 | 🟡 Medium | 3 |
 | 🔴 Hard | 1 |
 | **Total** | **21** |
->>>>>>> a08ea0c (add new tasks)
 
 ## 📁 Repository layout
 
