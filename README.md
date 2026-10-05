@@ -9,9 +9,9 @@ sorted by difficulty and numbered like on LeetCode.
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-solutions-FFA116?logo=leetcode&logoColor=white)
 ![C++](https://img.shields.io/badge/language-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
-![Solved](https://img.shields.io/badge/solved-21-brightgreen)
-![Easy](https://img.shields.io/badge/Easy-17-00B8A3)
-![Medium](https://img.shields.io/badge/Medium-3-FFB800)
+![Solved](https://img.shields.io/badge/solved-27-brightgreen)
+![Easy](https://img.shields.io/badge/Easy-22-00B8A3)
+![Medium](https://img.shields.io/badge/Medium-4-FFB800)
 ![Hard](https://img.shields.io/badge/Hard-1-F63636)
 ![Last commit](https://img.shields.io/github/last-commit/Maksimuson/leetcode?logo=git&logoColor=white)
 ![Repo size](https://img.shields.io/github/repo-size/Maksimuson/leetcode)
@@ -32,10 +32,10 @@ sorted by difficulty and numbered like on LeetCode.
 
 | Difficulty | Solved |
 |---|:---:|
-| 🟢 Easy | 17 |
-| 🟡 Medium | 3 |
+| 🟢 Easy | 22 |
+| 🟡 Medium | 4 |
 | 🔴 Hard | 1 |
-| **Total** | **21** |
+| **Total** | **27** |
 
 ## 📁 Repository layout
 
@@ -48,6 +48,7 @@ leetcode/
 ├── Medium/
 │   ├── 0002-add-two-numbers.cpp
 │   ├── 0022-generate-parentheses.cpp
+│   ├── 0678-valid-parenthesis-string.cpp
 │   └── 1488-avoid-flood-in-the-city.cpp
 ├── Hard/
 │   └── 0032-longest-valid-parentheses.cpp
@@ -75,6 +76,11 @@ leetcode/
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [0070-climbing-stairs.cpp](Easy/0070-climbing-stairs.cpp) |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [0083-remove-duplicates-from-sorted-list.cpp](Easy/0083-remove-duplicates-from-sorted-list.cpp) |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [0088-merege-sorted-array.cpp](Easy/0088-merege-sorted-array.cpp) |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [0094-binary-tree-inorder-traversal.cpp](Easy/0094-binary-tree-inorder-traversal.cpp) |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [0100-same-tree.cpp](Easy/0100-same-tree.cpp) |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [0101-symmetric-tree.cpp](Easy/0101-symmetric-tree.cpp) |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [0104-maximum-depth-of-binary-tree.cpp](Easy/0104-maximum-depth-of-binary-tree.cpp) |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [0108-convert-sorted-array-to-binary-search-tree.cpp](Easy/0108-convert-sorted-array-to-binary-search-tree.cpp) |
 
 ## 🟡 Medium
 
@@ -82,6 +88,7 @@ leetcode/
 |---|---|---|
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [0002-add-two-numbers.cpp](Medium/0002-add-two-numbers.cpp) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [0022-generate-parentheses.cpp](Medium/0022-generate-parentheses.cpp) |
+| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [0678-valid-parenthesis-string.cpp](Medium/0678-valid-parenthesis-string.cpp) |
 | 1488 | [Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [1488-avoid-flood-in-the-city.cpp](Medium/1488-avoid-flood-in-the-city.cpp) |
 
 ## 🔴 Hard
