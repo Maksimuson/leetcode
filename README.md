@@ -9,13 +9,15 @@ sorted by difficulty and numbered like on LeetCode.
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-solutions-FFA116?logo=leetcode&logoColor=white)
 ![C++](https://img.shields.io/badge/language-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
-![Solved](https://img.shields.io/badge/solved-27-brightgreen)
-![Easy](https://img.shields.io/badge/Easy-22-00B8A3)
+![Solved](https://img.shields.io/badge/solved-29-brightgreen)
+![Easy](https://img.shields.io/badge/Easy-24-00B8A3)
 ![Medium](https://img.shields.io/badge/Medium-4-FFB800)
 ![Hard](https://img.shields.io/badge/Hard-1-F63636)
 ![Last commit](https://img.shields.io/github/last-commit/Maksimuson/leetcode?logo=git&logoColor=white)
 ![Repo size](https://img.shields.io/github/repo-size/Maksimuson/leetcode)
 ![Commits](https://img.shields.io/github/commit-activity/t/Maksimuson/leetcode?logo=github)
+
+[Progress](#-progress) · [Topics](#-topics) · [Easy](#-easy) · [Medium](#-medium) · [Hard](#-hard) · [Conventions](#-conventions)
 
 </div>
 
@@ -30,12 +32,26 @@ sorted by difficulty and numbered like on LeetCode.
 
 ## 📊 Progress
 
-| Difficulty | Solved |
-|---|:---:|
-| 🟢 Easy | 22 |
-| 🟡 Medium | 4 |
-| 🔴 Hard | 1 |
-| **Total** | **27** |
+| Difficulty | Solved | Share |
+|---|:---:|---|
+| 🟢 Easy | 24 | `█████████████████░░░` 83% |
+| 🟡 Medium | 4 | `███░░░░░░░░░░░░░░░░░` 14% |
+| 🔴 Hard | 1 | `█░░░░░░░░░░░░░░░░░░░` 3% |
+| **Total** | **29** | |
+
+## 🧩 Topics
+
+| Topic | Solved | Problems |
+|---|:---:|---|
+| Array | 6 | #1, #26, #27, #66, #88, #169 |
+| Tree | 6 | #94, #100, #101, #104, #108, #110 |
+| String | 5 | #13, #14, #28, #58, #67 |
+| Stack & Parentheses | 4 | #20, #22, #32, #678 |
+| Linked List | 3 | #2, #21, #83 |
+| Binary Search | 2 | #35, #69 |
+| Dynamic Programming | 1 | #70 |
+| Greedy | 1 | #1488 |
+| Math | 1 | #9 |
 
 ## 📁 Repository layout
 
@@ -44,6 +60,7 @@ leetcode/
 ├── Easy/
 │   ├── 0001-two-sum.cpp
 │   ├── 0009-palindrome-number.cpp
+│   ├── 0013-roman-to-integer.cpp
 │   └── ...
 ├── Medium/
 │   ├── 0002-add-two-numbers.cpp
@@ -57,45 +74,47 @@ leetcode/
 
 ## 🟢 Easy
 
-| # | Problem | Solution |
-|---|---|---|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [0001-two-sum.cpp](Easy/0001-two-sum.cpp) |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [0009-palindrome-number.cpp](Easy/0009-palindrome-number.cpp) |
-| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [0013-roman-to-integer.cpp](Easy/0013-roman-to-integer.cpp) |
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [0014-longest-common-prefix.cpp](Easy/0014-longest-common-prefix.cpp) |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [0020-valid-parentheses.cpp](Easy/0020-valid-parentheses.cpp) |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [0021-merge-two-sorted-lists.cpp](Easy/0021-merge-two-sorted-lists.cpp) |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [0026-remove-duplicates-from-sorted-array.cpp](Easy/0026-remove-duplicates-from-sorted-array.cpp) |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [0027-remove-element.cpp](Easy/0027-remove-element.cpp) |
-| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [0028-find-the-index-of-the-first-occurrence-in-a-string.cpp](Easy/0028-find-the-index-of-the-first-occurrence-in-a-string.cpp) |
-| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [0035-search-insert-position.cpp](Easy/0035-search-insert-position.cpp) |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [0058-length-of-last-word.cpp](Easy/0058-length-of-last-word.cpp) |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | [0066-plus-one.cpp](Easy/0066-plus-one.cpp) |
-| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | [0067-add-binary.cpp](Easy/0067-add-binary.cpp) |
-| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [0069-sqrt(x).cpp](Easy/0069-sqrt%28x%29.cpp) |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [0070-climbing-stairs.cpp](Easy/0070-climbing-stairs.cpp) |
-| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [0083-remove-duplicates-from-sorted-list.cpp](Easy/0083-remove-duplicates-from-sorted-list.cpp) |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [0088-merege-sorted-array.cpp](Easy/0088-merege-sorted-array.cpp) |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [0094-binary-tree-inorder-traversal.cpp](Easy/0094-binary-tree-inorder-traversal.cpp) |
-| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [0100-same-tree.cpp](Easy/0100-same-tree.cpp) |
-| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [0101-symmetric-tree.cpp](Easy/0101-symmetric-tree.cpp) |
-| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [0104-maximum-depth-of-binary-tree.cpp](Easy/0104-maximum-depth-of-binary-tree.cpp) |
-| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [0108-convert-sorted-array-to-binary-search-tree.cpp](Easy/0108-convert-sorted-array-to-binary-search-tree.cpp) |
+| # | Problem | Topics | Solution |
+|---|---|---|---|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array, Hash Table | [0001-two-sum.cpp](Easy/0001-two-sum.cpp) |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | [0009-palindrome-number.cpp](Easy/0009-palindrome-number.cpp) |
+| 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Hash Table, String | [0013-roman-to-integer.cpp](Easy/0013-roman-to-integer.cpp) |
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | String | [0014-longest-common-prefix.cpp](Easy/0014-longest-common-prefix.cpp) |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack, String | [0020-valid-parentheses.cpp](Easy/0020-valid-parentheses.cpp) |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Linked List | [0021-merge-two-sorted-lists.cpp](Easy/0021-merge-two-sorted-lists.cpp) |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Array, Two Pointers | [0026-remove-duplicates-from-sorted-array.cpp](Easy/0026-remove-duplicates-from-sorted-array.cpp) |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Array, Two Pointers | [0027-remove-element.cpp](Easy/0027-remove-element.cpp) |
+| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | String | [0028-find-the-index-of-the-first-occurrence-in-a-string.cpp](Easy/0028-find-the-index-of-the-first-occurrence-in-a-string.cpp) |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Binary Search | [0035-search-insert-position.cpp](Easy/0035-search-insert-position.cpp) |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | String | [0058-length-of-last-word.cpp](Easy/0058-length-of-last-word.cpp) |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Array, Math | [0066-plus-one.cpp](Easy/0066-plus-one.cpp) |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | String, Math | [0067-add-binary.cpp](Easy/0067-add-binary.cpp) |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Binary Search, Math | [0069-sqrt(x).cpp](Easy/0069-sqrt%28x%29.cpp) |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | DP | [0070-climbing-stairs.cpp](Easy/0070-climbing-stairs.cpp) |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Linked List | [0083-remove-duplicates-from-sorted-list.cpp](Easy/0083-remove-duplicates-from-sorted-list.cpp) |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Array, Two Pointers | [0088-merege-sorted-array.cpp](Easy/0088-merege-sorted-array.cpp) |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Tree, DFS | [0094-binary-tree-inorder-traversal.cpp](Easy/0094-binary-tree-inorder-traversal.cpp) |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Tree, DFS | [0100-same-tree.cpp](Easy/0100-same-tree.cpp) |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Tree, DFS | [0101-symmetric-tree.cpp](Easy/0101-symmetric-tree.cpp) |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Tree, DFS | [0104-maximum-depth-of-binary-tree.cpp](Easy/0104-maximum-depth-of-binary-tree.cpp) |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | Tree, Divide and Conquer | [0108-convert-sorted-array-to-binary-search-tree.cpp](Easy/0108-convert-sorted-array-to-binary-search-tree.cpp) |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Tree, DFS | [0110-bakanced-binary-tree.cpp](Easy/0110-bakanced-binary-tree.cpp) |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Array, Sorting | [0169-majority-element.cpp](Easy/0169-majority-element.cpp) |
 
 ## 🟡 Medium
 
-| # | Problem | Solution |
-|---|---|---|
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [0002-add-two-numbers.cpp](Medium/0002-add-two-numbers.cpp) |
-| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [0022-generate-parentheses.cpp](Medium/0022-generate-parentheses.cpp) |
-| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [0678-valid-parenthesis-string.cpp](Medium/0678-valid-parenthesis-string.cpp) |
-| 1488 | [Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [1488-avoid-flood-in-the-city.cpp](Medium/1488-avoid-flood-in-the-city.cpp) |
+| # | Problem | Topics | Solution |
+|---|---|---|---|
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Linked List, Math | [0002-add-two-numbers.cpp](Medium/0002-add-two-numbers.cpp) |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Backtracking, String | [0022-generate-parentheses.cpp](Medium/0022-generate-parentheses.cpp) |
+| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | String, Greedy | [0678-valid-parenthesis-string.cpp](Medium/0678-valid-parenthesis-string.cpp) |
+| 1488 | [Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | Greedy, Hash Table | [1488-avoid-flood-in-the-city.cpp](Medium/1488-avoid-flood-in-the-city.cpp) |
 
 ## 🔴 Hard
 
-| # | Problem | Solution |
-|---|---|---|
-| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [0032-longest-valid-parentheses.cpp](Hard/0032-longest-valid-parentheses.cpp) |
+| # | Problem | Topics | Solution |
+|---|---|---|---|
+| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | DP, Stack | [0032-longest-valid-parentheses.cpp](Hard/0032-longest-valid-parentheses.cpp) |
 
 ## 🔍 Finding a solution
 
