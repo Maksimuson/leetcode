@@ -4,13 +4,13 @@
 
 **Problems solved. Code saved. Progress tracked.**
 
-My personal archive of accepted LeetCode solutions in C++,
+My personal archive of accepted LeetCode solutions in C++ (and SQL for database problems),
 sorted by difficulty and numbered like on LeetCode.
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-solutions-FFA116?logo=leetcode&logoColor=white)
 ![C++](https://img.shields.io/badge/language-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
-![Solved](https://img.shields.io/badge/solved-29-brightgreen)
-![Easy](https://img.shields.io/badge/Easy-24-00B8A3)
+![Solved](https://img.shields.io/badge/solved-30-brightgreen)
+![Easy](https://img.shields.io/badge/Easy-25-00B8A3)
 ![Medium](https://img.shields.io/badge/Medium-4-FFB800)
 ![Hard](https://img.shields.io/badge/Hard-1-F63636)
 ![Last commit](https://img.shields.io/github/last-commit/Maksimuson/leetcode?logo=git&logoColor=white)
@@ -34,10 +34,10 @@ sorted by difficulty and numbered like on LeetCode.
 
 | Difficulty | Solved | Share |
 |---|:---:|---|
-| 🟢 Easy | 24 | `█████████████████░░░` 83% |
-| 🟡 Medium | 4 | `███░░░░░░░░░░░░░░░░░` 14% |
+| 🟢 Easy | 25 | `█████████████████░░░` 83% |
+| 🟡 Medium | 4 | `███░░░░░░░░░░░░░░░░░` 13% |
 | 🔴 Hard | 1 | `█░░░░░░░░░░░░░░░░░░░` 3% |
-| **Total** | **29** | |
+| **Total** | **30** | |
 
 ## 🧩 Topics
 
@@ -52,6 +52,7 @@ sorted by difficulty and numbered like on LeetCode.
 | Dynamic Programming | 1 | #70 |
 | Greedy | 1 | #1488 |
 | Math | 1 | #9 |
+| Database (SQL) | 1 | #175 |
 
 ## 📁 Repository layout
 
@@ -61,6 +62,7 @@ leetcode/
 │   ├── 0001-two-sum.cpp
 │   ├── 0009-palindrome-number.cpp
 │   ├── 0013-roman-to-integer.cpp
+│   ├── 0175-combine-two-tables.sql
 │   └── ...
 ├── Medium/
 │   ├── 0002-add-two-numbers.cpp
@@ -100,6 +102,7 @@ leetcode/
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | Tree, Divide and Conquer | [0108-convert-sorted-array-to-binary-search-tree.cpp](Easy/0108-convert-sorted-array-to-binary-search-tree.cpp) |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Tree, DFS | [0110-bakanced-binary-tree.cpp](Easy/0110-bakanced-binary-tree.cpp) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Array, Sorting | [0169-majority-element.cpp](Easy/0169-majority-element.cpp) |
+| 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | Database, SQL | [0175-combine-two-tables.sql](Easy/0175-combine-two-tables.sql) |
 
 ## 🟡 Medium
 
@@ -127,7 +130,7 @@ leetcode/
 ## 🧭 Conventions
 
 - One accepted solution per problem.
-- Solutions are stored as submitted to LeetCode, so they keep LeetCode's `class Solution` signatures.
+- Solutions are stored as submitted to LeetCode, so they keep LeetCode's `class Solution` signatures. Database problems are plain `.sql` files.
 - Folders are by difficulty: `Easy`, `Medium`, `Hard`.
 - Adding a solution? Add its row to the table in this README too, and bump the counters.
 
