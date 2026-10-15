@@ -9,9 +9,9 @@ sorted by difficulty and numbered like on LeetCode.
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-solutions-FFA116?logo=leetcode&logoColor=white)
 ![C++](https://img.shields.io/badge/language-C%2B%2B-00599C?logo=cplusplus&logoColor=white)
-![Solved](https://img.shields.io/badge/solved-31-brightgreen)
+![Solved](https://img.shields.io/badge/solved-32-brightgreen)
 ![Easy](https://img.shields.io/badge/Easy-25-00B8A3)
-![Medium](https://img.shields.io/badge/Medium-5-FFB800)
+![Medium](https://img.shields.io/badge/Medium-6-FFB800)
 ![Hard](https://img.shields.io/badge/Hard-1-F63636)
 ![Last commit](https://img.shields.io/github/last-commit/Maksimuson/leetcode?logo=git&logoColor=white)
 ![Repo size](https://img.shields.io/github/repo-size/Maksimuson/leetcode)
@@ -34,18 +34,18 @@ sorted by difficulty and numbered like on LeetCode.
 
 | Difficulty | Solved | Share |
 |---|:---:|---|
-| 🟢 Easy | 25 | `████████████████░░░░` 81% |
-| 🟡 Medium | 5 | `███░░░░░░░░░░░░░░░░░` 16% |
+| 🟢 Easy | 25 | `███████████████░░░░░` 78% |
+| 🟡 Medium | 6 | `████░░░░░░░░░░░░░░░░` 19% |
 | 🔴 Hard | 1 | `█░░░░░░░░░░░░░░░░░░░` 3% |
-| **Total** | **31** | |
+| **Total** | **32** | |
 
 ## 🧩 Topics
 
 | Topic | Solved | Problems |
 |---|:---:|---|
+| String | 7 | #3, #5, #13, #14, #28, #58, #67 |
 | Array | 6 | #1, #26, #27, #66, #88, #169 |
 | Tree | 6 | #94, #100, #101, #104, #108, #110 |
-| String | 6 | #3, #13, #14, #28, #58, #67 |
 | Stack & Parentheses | 4 | #20, #22, #32, #678 |
 | Linked List | 3 | #2, #21, #83 |
 | Binary Search | 2 | #35, #69 |
@@ -68,6 +68,7 @@ leetcode/
 ├── Medium/
 │   ├── 0002-add-two-numbers.cpp
 │   ├── 0003-longest-substring-without-repeating-characters.cpp
+│   ├── 0005-longest-palindromic-substring.cpp
 │   ├── 0022-generate-parentheses.cpp
 │   ├── 0678-valid-parenthesis-string.cpp
 │   └── 1488-avoid-flood-in-the-city.cpp
@@ -112,6 +113,7 @@ leetcode/
 |---|---|---|---|
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Linked List, Math | [0002-add-two-numbers.cpp](Medium/0002-add-two-numbers.cpp) |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | String, Sliding Window | [0003-longest-substring-without-repeating-characters.cpp](Medium/0003-longest-substring-without-repeating-characters.cpp) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | String, Two Pointers | [0005-longest-palindromic-substring.cpp](Medium/0005-longest-palindromic-substring.cpp) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Backtracking, String | [0022-generate-parentheses.cpp](Medium/0022-generate-parentheses.cpp) |
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | String, Greedy | [0678-valid-parenthesis-string.cpp](Medium/0678-valid-parenthesis-string.cpp) |
 | 1488 | [Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | Greedy, Hash Table | [1488-avoid-flood-in-the-city.cpp](Medium/1488-avoid-flood-in-the-city.cpp) |
